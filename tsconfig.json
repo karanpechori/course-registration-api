@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    /* Basic */
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "target": "ES2022",
+    "verbatimModuleSyntax": true,
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "moduleDetection": "force",
+
+    /* Strictness */
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+
+    /* Bundling */
+    "noEmit": true,
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+
+    /* Extras */
+    "lib": ["ES2023"],
+
+    /* Paths */
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  },
+  "include": ["src", "scripts"]
+}
